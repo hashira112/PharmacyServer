@@ -9,6 +9,7 @@ require("firebase/database")
 const app = express()
 
 app.use(express.json());
+app.use(cors())
 
 const sales = require("./routes/sales")
 const login = require("./routes/login")
