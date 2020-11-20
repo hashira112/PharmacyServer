@@ -1,7 +1,5 @@
 const express = require("express")
-const mysql = require("mysql")
 const cors = require("cors")
-const dbConfig = require("./config/db.config.js")
 
 const firebase = require('firebase/app')
 require("firebase/database")
