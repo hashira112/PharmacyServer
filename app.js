@@ -21,4 +21,4 @@ app.use("/api/user", user)
 app.use("/api/products", products)
 
 
-app.listen(3020, ()=>console.log('listening'))
+app.listen(process.env.PORT, ()=>console.log('listening'))
