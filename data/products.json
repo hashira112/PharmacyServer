@@ -1,0 +1,39 @@
+[
+    {
+      "name": "Vicodin",
+      "price": 100,
+      "id":0
+    },{
+        "name": "Amoxil",
+        "price": 40,
+        "id":1
+    },{
+        "name": "Lipitor",
+        "price": 240,
+        "id":2
+    },{
+        "name": "Delasone",
+        "price": 20,
+        "id":3
+    },{
+        "name": "Glucophage",
+        "price": 300,
+        "id":4
+    },{
+        "name": "Thyroxines",
+        "price": 250,
+        "id":5
+    },{
+        "name": "hydrocodone",
+        "price": 100,
+        "id":6
+    },{
+        "name": "Zestril",
+        "price": 320,
+        "id":7
+    },{
+        "name": "Norco",
+        "price": 500,
+        "id":8
+    }
+  ]
