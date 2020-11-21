@@ -16,11 +16,11 @@ route.post("/", (req, res) => {
   database.ref('/products').once('value').then(data =>{
   const list = data.val()
 
-  const productsRef = database.ref('products/')
+  const productsRef = database.ref('/products')
   const product = productsRef.push()
   product.set({
     name: req.body.name,
-    id: list.length,
+    id: Object.keys(list).length,
     price: req.body.price,
   })
   res.send('Added')
