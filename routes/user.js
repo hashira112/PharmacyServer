@@ -14,7 +14,7 @@ route.get("/", (req, res) => {
 })
 
 route.put("/", (req, res) => {
-    const userRef = database.ref('products/')
+    const userRef = database.ref('user/')
     const user = userRef.push()
     user.set({
       name: req.body.name,
