@@ -14,17 +14,9 @@ route.get("/", (req, res) => {
 })
 
 route.put("/", (req, res) => {
-    const userRef = database.ref('user/')
-    const user = userRef.push()
-    user.set({
-      name: req.body.name,
-      id: req.body.id,
-      password: req.body.password,
-      phone: req.body.phone,
-      userName: req.body.userName,
-    })
-    res.send('Added')
-    
+    const edit = req.body
+    database.ref('/user').set(edit)
+    res.send('Edited!')
 })
 
 module.exports = route
