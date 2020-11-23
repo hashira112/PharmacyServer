@@ -25,15 +25,20 @@ route.get("/", (req, res) => {
 });
 
 route.post("/", (req, res) => {
+  database.ref('/sales').once('value').then(data =>{
+  const list = data.val()
+
   const salesRef = database.ref('sales/')
+
   const sale = salesRef.push()
   sale.set({
     name: req.body.name,
     date: req.body.date,
     amount: req.body.amount,
-    products: req.body.products,
+    id: Object.keys(list).length,
   })
   res.send('Sales Added')
+})
 })
 
 module.exports = route;
