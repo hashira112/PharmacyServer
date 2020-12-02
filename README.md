@@ -32,7 +32,50 @@ npm start
 
 The project uses Firebase Realtime Database which is a document model NOSQL database.
  
-### Schema 
+### Model
+```javascript 
+{"sales":{"-MMnEMLYrvu2zzw9nLdB" : {
+    "amount" : 100,
+    "date" : "23/11/2020",
+    "id" : 9,
+    "name" : "Raj"
+  },
+  "-MN42T7QEMYt5dkZT8Kn" : {
+    "amount" : 2760,
+    "date" : "26/11/2020",
+    "id" : 10,
+    "name" : "Hetav Patel"
+  },
+  "-MNE4pHySnctA5c21qgr" : {
+    "amount" : 80,
+    "date" : "28/11/2020",
+    "id" : 11,
+    "name" : "Nikhil"
+  },
+"products":[
+    {
+      "name": "Vicodin",
+      "price": 100,
+      "id":0
+    },{
+        "name": "Amoxil",
+        "price": 40,
+        "id":1
+    },{
+        "name": "Lipitor",
+        "price": 240,
+        "id":2
+    }
+  ],
+"user":{
+    "name":"Mark Johnson",
+    "address": "123 abc block",
+    "phone":"0123456789",
+    "id":"admin",
+    "password": "pass123"
+},
+}
+```
 
 
 ## Technologies Used
