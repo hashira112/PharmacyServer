@@ -4,14 +4,16 @@ const route = express.Router();
 const firebase = require('firebase/app')
 require("firebase/database")
 
+
+//Your FireBase Configurations here.
 const firebaseConfig = {
-  apiKey: "AIzaSyBsYqbJ95VvX_kj41Zn89viaDIzrQ_dEZY",
-  authDomain: "pharmacydashboard-b9262.firebaseapp.com",
-  databaseURL: "https://pharmacydashboard-b9262.firebaseio.com",
-  projectId: "pharmacydashboard-b9262",
-  storageBucket: "pharmacydashboard-b9262.appspot.com",
-  messagingSenderId: "127721288589",
-  appId: "1:127721288589:web:44f97dec6ab3621a8dc3c4"
+  apiKey: "",
+  authDomain: "",
+  databaseURL: "",
+  projectId: "",
+  storageBucket: "",
+  messagingSenderId: "",
+  appId: ""
 }
 
 firebase.initializeApp(firebaseConfig)

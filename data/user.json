@@ -1,7 +1,7 @@
 {
-    "name":"Anuj Sharma",
-    "userName": "Anuj",
+    "name":"Mark Johnson",
+    "address": "123 abc block",
     "phone":"0123456789",
-    "id":"anuj",
-    "password": "anuj123"
+    "id":"admin",
+    "password": "pass123"
 }
