@@ -1,6 +1,6 @@
 # Pharmacy Backend
 
-Backend Code of [Pharmacy Store Dashboard](https://github.com/AnujSharma141/PharmacyDashboard)
+Server of [Pharmacy Store Dashboard](https://github.com/AnujSharma141/PharmacyDashboard)
 
  Created with [NODE](https://nodejs.org/), [EXPRESS](https://expressjs.com/), [FIREBASE](https://firebase.google.com/).
 
