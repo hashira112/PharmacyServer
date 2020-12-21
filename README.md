@@ -33,7 +33,7 @@ npm start
 The project uses Firebase Realtime Database which is a document model NOSQL database.
  
 ### Model
-![alt text](https://i.ibb.co/BZ1GZB7/Screenshot-2020-12-22-024346.jpg)
+<img src="https://i.ibb.co/BZ1GZB7/Screenshot-2020-12-22-024346.jpg" width="280">
 
 
 ## Technologies Used
