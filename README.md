@@ -1,6 +1,6 @@
 # Pharmacy Backend
 
-Server of [Pharmacy Store Dashboard](https://github.com/AnujSharma141/PharmacyDashboard)
+Server of [Pharmacy Store Dashboard](https://github.com/AnujSharma141/PharmacyDashboard). 
 
  Created with [NODE](https://nodejs.org/), [EXPRESS](https://expressjs.com/), [FIREBASE](https://firebase.google.com/).
 
@@ -9,8 +9,8 @@ Server of [Pharmacy Store Dashboard](https://github.com/AnujSharma141/PharmacyDa
 Run the following commands in terminal to setup the project on your local machine.
 
 ```bash 
-git clone https://github.com/AnujSharma141/PharmacyBackend.git
-cd PharmacyBackend
+git clone https://github.com/AnujSharma141/PharmacyServer.git
+cd PharmacyServer
 npm install
 npm start
 ```
@@ -24,8 +24,8 @@ npm start
 3. Copy Firebase Config Keys
 4. Insert your Keys to `routes/sales.js`
 
-### User Admin
-1. Edit `data/user.json` for required admin data.
+### Admin Config
+1. Configure `data/user.json`.
 2. Import `data/user.json` to `/user` route in your Firebase Realtime Database.
 
 ## Database
@@ -33,49 +33,7 @@ npm start
 The project uses Firebase Realtime Database which is a document model NOSQL database.
  
 ### Model
-```javascript 
-{"sales":{"-MMnEMLYrvu2zzw9nLdB" : {
-    "amount" : 100,
-    "date" : "23/11/2020",
-    "id" : 9,
-    "name" : "Raj"
-  },
-  "-MN42T7QEMYt5dkZT8Kn" : {
-    "amount" : 2760,
-    "date" : "26/11/2020",
-    "id" : 10,
-    "name" : "Hetav Patel"
-  },
-  "-MNE4pHySnctA5c21qgr" : {
-    "amount" : 80,
-    "date" : "28/11/2020",
-    "id" : 11,
-    "name" : "Nikhil"
-  },
-"products":[
-    {
-      "name": "Vicodin",
-      "price": 100,
-      "id":0
-    },{
-        "name": "Amoxil",
-        "price": 40,
-        "id":1
-    },{
-        "name": "Lipitor",
-        "price": 240,
-        "id":2
-    }
-  ],
-"user":{
-    "name":"Mark Johnson",
-    "address": "123 abc block",
-    "phone":"0123456789",
-    "id":"admin",
-    "password": "pass123"
-},
-}
-```
+![alt text](https://i.ibb.co/BZ1GZB7/Screenshot-2020-12-22-024346.jpg)
 
 
 ## Technologies Used
