@@ -31,7 +31,7 @@ npm start
 ## Database
 
 * Type : Document Model (NOSQL)
-* Servive : Firebase Realtime Database
+* Service : Firebase Realtime Database
  
 ### Model
 <img src="https://i.ibb.co/BZ1GZB7/Screenshot-2020-12-22-024346.jpg" width="480">
