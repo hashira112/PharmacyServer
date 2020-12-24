@@ -1,8 +1,6 @@
 # Pharmacy Backend
 
-Server of [Pharmacy Store Dashboard](https://github.com/AnujSharma141/PharmacyDashboard). 
-
- Created with [NODE](https://nodejs.org/), [EXPRESS](https://expressjs.com/), [FIREBASE](https://firebase.google.com/).
+ Server and Backend code of [Pharmacy Store Dashboard](https://github.com/AnujSharma141/PharmacyDashboard). REST API built with [NODE](https://nodejs.org/) over [EXPRESS](https://expressjs.com/) and [FIREBASE](https://firebase.google.com/).
 
 
 ## Development
