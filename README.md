@@ -26,7 +26,7 @@ npm start
 
 ### Admin Config
 1. Configure `data/user.json`.
-2. Import `data/user.json` to `/user` route in your Firebase Realtime Database.
+2. Import `data/user.json` to `/user` in the Database.
 
 ## Database
 
