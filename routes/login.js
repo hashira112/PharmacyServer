@@ -4,6 +4,7 @@ const route = express.Router();
 const firebase = require('firebase/app')
 require("firebase/database")
 
+
 const database = firebase.database()
 
 route.post("/", (req, res) => {

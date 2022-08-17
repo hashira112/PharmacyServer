@@ -7,14 +7,14 @@ require("firebase/database")
 
 //Your FireBase Configurations here.
 const firebaseConfig = {
-  apiKey: "",
-  authDomain: "",
-  databaseURL: "",
-  projectId: "",
-  storageBucket: "",
-  messagingSenderId: "",
-  appId: ""
-}
+  apiKey: "AIzaSyAUh8wPpiQKtlirjP3DvuudQUJr3ecM_uw",
+  authDomain: "pharmacy-minor.firebaseapp.com",
+  projectId: "pharmacy-minor",
+  storageBucket: "pharmacy-minor.appspot.com",
+  messagingSenderId: "372146127424",
+  appId: "1:372146127424:web:9aa85e3dfebf8d859315a5",
+  measurementId: "G-6BBQXFZ2B9"
+};
 
 firebase.initializeApp(firebaseConfig)
 const database = firebase.database()
